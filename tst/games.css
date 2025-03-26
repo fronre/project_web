@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    color: #ff6f61;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6f61;
+}
+
+/* Games Section */
+.games-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.games-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff6f61;
+    text-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+/* Games Grid */
+.games-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Increased gap between cards */
+    flex-wrap: wrap;
+    padding: 20px; /* Added padding around the grid */
+}
+
+/* Game Card */
+.game-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 10px; /* Added margin to separate cards further */
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 111, 97, 0.5);
+}
+
+.game-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.game-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.game-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.game-card a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.game-card a:hover {
+    background-color: #ff4a3d;
+    box-shadow: 0 4px 10px rgba(255, 111, 97, 0.5);
+}
+
+/* Footer */
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}

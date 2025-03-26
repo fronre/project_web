@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store Login</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Game Store</h1>
+            <p>Welcome back! Log in to continue your gaming journey.</p>
+        </div>
+        <form action="home.html" method="post">
+            <div class="input-group">
+                <input type="text" id="username" name="username" required>
+                <label for="username">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" required>
+                <label for="password">Password</label>
+            </div>
+            <button type="submit" action="home.html">Log In</button>
+        </form>
+        <div class="login-footer">
+            <p>Don't have an account? <a href="signUp.html">Sign Up</a></p>
+            <p><a href="forgetPassword.html">Forgot Password?</a></p>
+        </div>
+    </div>
+</body>
+</html>
