@@ -2,7 +2,7 @@
 include('config.php');
 $result = mysqli_query($con, "SELECT * FROM prod");
 while ($row = mysqli_fetch_array($result)){
-    $imagePath = $row['image']; // جلب مسار الصورة من قاعدة البيانات
+    $imagePath = $row['image']; 
 
     echo "
     <center>
